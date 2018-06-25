@@ -50,6 +50,9 @@
     "start": "node server/server.js",
     "heroku-postbuild": "npm run build:prod"
   },
+  "engines": {
+    "node": "10.3.0"
+  },
   "author": "",
   "license": "ISC"
 }
