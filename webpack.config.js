@@ -7,7 +7,7 @@ module.exports = env => {
   const CSSExtract = new MiniCssExtractPlugin({ filename: 'styles.css' });
 
   return {
-    entry: path.join(__dirname, './src/app.js'),
+    entry: path.join(__dirname, './src/App.js'),
     output: {
       publicPath: '/',
       path: path.join(__dirname, './public'),
